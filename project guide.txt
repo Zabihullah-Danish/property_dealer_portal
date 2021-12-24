@@ -1,0 +1,3 @@
+1- clone the project to you wamp www director.
+2- make a databse and import the sql file to mysql.
+3- run the project on the browser.
