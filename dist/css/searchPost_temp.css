@@ -1,0 +1,144 @@
+.content-box{
+  width:1000px;
+  height:auto;
+  /* border:1px solid gray; */
+  margin:auto;
+  /* display: flex; */
+  padding:7px;
+  background-color: #d9d9f2;
+  /* border:1px solid blue; */
+
+}
+.content{
+  width:100%;
+  height:auto;
+  border-radius:4px;
+  background-color: #ececf9;
+  border:1px solid #ececf9;
+}
+.search-area{
+  width:100%;
+  display:inline-block;
+  background-color: #ececf9;
+}
+.search{
+  width:100%;
+  /* border:1px solid red; */
+  border-collapse:collapse;
+  margin:5px;
+  border-radius: 5px;
+}
+.search tr{
+  width:100%;
+  /* background-color: red; */
+}
+.search td{
+  text-align: left;
+  border:none;
+}
+input,select{
+  width:230px;
+  height: 40px;
+  padding-left: 5px;
+  border-radius: 5px;
+  border:1px solid #ccc;
+  background-color: none;
+}
+input:hover,select:hover{
+  border:1px solid aqua;
+}
+#submit,#reset{
+  width:115px;
+  background-color: #2d2d86;
+  color:white;
+}
+#submit:hover,#reset:hover{
+  background-color: #131339;
+  color:white;
+  cursor:pointer;
+}
+.list-posts{
+  border-top:1px solid #ccc;
+  padding:5px;
+}
+#recordfound{
+  margin:4px;
+  padding:4px;
+  display: inline-block;
+  font-size:18px;
+  font-family: monospace;
+  color:blue;
+}
+.list-table{
+  border-collapse: collapse;
+  width:100%;
+
+}
+.list-table tr{
+  /* box-shadow:1px 1px 1px 1px #ccc; */
+  /* border:1px solid #ccc; */
+  /* transition-duration:0.3s; */
+
+}
+.list-table tr:hover{
+  border-left:1px solid #000;
+  cursor:pointer;
+}
+.list-table tr:nth-child(even) {
+  background-color:  #e0e0eb;
+}
+.list-posts .list-table tr th,td{
+  border:1px solid #ccc;
+  padding:10px 5px;
+}
+.list-posts .list-table tr td.viewbtn{
+  text-align: center;
+
+}
+.list-posts .list-table tr td.viewbtn a.view:visited,a.view:link{
+  display: inline;
+  width:80px;
+  padding:4px 6px;
+  color:white;
+  text-decoration: none;
+  background-color: #4040bf;
+  border-radius:2px;
+  cursor:pointer;
+  transition-duration:0.2s;
+}
+.list-posts .list-table tr td.viewbtn a.view:hover,a.view:active{
+  background-color: #3939ac;
+}
+.list-table tr td.viewbtn a.edit:visited,a.edit:link{
+  display: inline;
+  padding:4px 6px;
+  color:white;
+  /* font-size:2px; */
+  text-decoration: none;
+  background-color: darkblue;
+  border-radius:2px;
+  cursor:pointer;
+  transition-duration:0.2s;
+}
+.list-table tr td.viewbtn a.del:visited,a.del:link{
+  display: inline;
+  padding:4px 6px;
+  color:white;
+  text-decoration: none;
+  background-color: red;
+  border-radius:2px;
+  cursor:pointer;
+  transition-duration:0.2s;
+}
+#id{
+  width:7%;
+}
+#title{
+  width:67%;
+}
+#category{
+  width:8%;
+}
+#view{
+  width:18%;
+}
